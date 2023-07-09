@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-// Kullanıcı veri yapısı
+// Kullanıcı verisi
 typedef struct {
     char isim[50];
     int hesapNumarasi;
     double bakiye;
 } Kullanici;
-
-// Hesap yönetimi fonksiyonları
+// Hesap yönetimi 
 void yeniHesapOlustur();
 void hesapGuncelle();
 void hesapSil();
